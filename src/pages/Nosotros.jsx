@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Text from '../components/atoms/Text';
-import Image from '../img';
 import Button from '../components/atoms/Button';
 import ProductCard from '../components/organisms/ProductCard';
 import products from '../data/Products';

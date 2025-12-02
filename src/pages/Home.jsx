@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import ProductCard from '../components/organisms/ProductCard';
 import { getMergedProducts } from '../utils/productLoader';
 import { useEffect, useState } from 'react';
-import bgImage from '../img/Fondo.webp';
+import bgImage from '../../src/img/Fondo.webp';
 function Home() {
   const [products, setProducts] = useState(() => getMergedProducts());
 

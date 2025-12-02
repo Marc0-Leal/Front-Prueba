@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import posts from '../data/BlogPosts';
-import bgImage from '../img/Fondo.webp';
+import bgImage from '../../src/img/Fondo.webp';
 
 function Blog() {
   return (
